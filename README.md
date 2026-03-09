@@ -57,3 +57,52 @@ Router --> |LAN 4| Printer
 Imagem da topologia utilizada no laboratório:
 
 ![.](Redes-domestica.png)
+
+
+---
+
+## 4. Plano de endereçamento IP
+
+Rede: 192.168.0.0/24
+
+Gateway : 192.168.0.1
+
+| Dispositivo | Tipo de IP | Endereço IP | Observação |
+|-------------|-------------|-------------|-------------|
+| Roteador | Estático | 192.168.0.1 | IP do Rotiador |
+| Impressora | Reserva DHCP | 192.168.0.100 | IP reservo pelo roteador |
+| PC1 | Reserva DHCP | 192.168.0.101 | IP reservado pelo rotiador |
+| PC2 | Reserva DHCP | Automático | IP atribuído pelo rotiador |
+| PC3 | Reserva DHCP | Automático | IP atribuído pelo rotiador |
+
+**Observação**
+
+- A impressora e uma dos utilizam reserva DHCP.
+- O rotiador sempre atribui o mesmo endereço IP a esses dispositivos.
+
+---
+
+## 5. Intalação no Laboratório Real
+
+Após a intalação, a rede foi montada fisicamente no laboratório.
+
+Etapa realizadas:
+
+(fotos ew capturas de telas realizadas durante o laboratório)
+
+Teste:
+
+(fotos ew capturas de telas realizadas durante o laboratório)
+
+---
+
+## 6. Conclusão
+
+Este laboratório permitiu compreender o funcionamento de uma rede local simples, incluindo:
+
+- Estrutura de uma rede doméstica ou de pequeno escritório
+- Utilização de um rotiador com porta WAN e portas LAn
+- Funcionamento do DHCP
+- Comunicação entre dispositivos na rede local
+- Utilização de uma impressora de rede
+- Compartilhamento de pastas na rede
